@@ -1,2 +1,2 @@
 # Pibot
-A selfhosted NodeJS discord bot for controlling Pihole
+A unoffical selfhosted NodeJS discord bot for controlling Pihole
