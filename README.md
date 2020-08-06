@@ -14,15 +14,15 @@ Your [discord id](https://support.discord.com/hc/en-us/articles/206346498-Where-
 Your Pihole ip and It's Api key found in your settings page     
 ![Settings](https://raw.githubusercontent.com/Joshua-Noakes1/Lake-CDN/master/CDN/Other%20Repos/Pibot/Images/pihole-setting.png)    
 
-## 3. Setting up dotenv
-You'll want to make a .env file and put the following things in 
+## 3. Setting up dotenv   
+You'll want to make a .env file and put the following things in    
 
-Bot_Token={with your bot token}
-ID={with your discord id}
-piurl={including the http / https of your pi's pi address}
-piapi={your pi's api key}
-prefix={what you want the bots prefix to be}
-
+Bot_Token={with your bot token}    
+ID={with your discord id}     
+piurl={including the http / https of your pi's pi address}    
+piapi={your pi's api key}   
+prefix={what you want the bots prefix to be}   
+   
 ## 4. Launch the bot 
 
 you can launch the bot with 
