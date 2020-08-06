@@ -1,6 +1,6 @@
 //Pibot is an unoffical discord bot for using pihole in discord.
+//Open source @ https://github.com/Joshua-Noakes1/Pibot
 
-const build = "0.0.1"
 require('dotenv').config();
 //discord magic
 const Discord = require("discord.js");
@@ -39,7 +39,6 @@ client.on('message', message => {
         return;
     };
 });
-//Functions
 
 client.login(process.env.Bot_Token).catch(err => {
     console.log(err);
