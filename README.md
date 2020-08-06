@@ -3,7 +3,7 @@ An unoffical selfhosted NodeJS discord bot for controlling Pihole
 
 # Setup
 
-## 1. Install Dependencies  
+## 1. Installing Dependencies  
 You need to have v12 of Discord.js, v2 of request and v8 of dotenv for this bot
 ```
 npm i discord.js request dotenv
