@@ -1,0 +1,28 @@
+{
+  "name": "pibot",
+  "version": "1.0.0",
+  "description": "An unoffical selfhosted NodeJS discord bot for controlling Pihole",
+  "main": "index.js",
+  "scripts": {
+    "pibot": "nodemon pibot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joshua-Noakes1/Pibot.git"
+  },
+  "keywords": [
+    "Pihole",
+    "Disocrd"
+  ],
+  "author": "Joshua Noakes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joshua-Noakes1/Pibot/issues"
+  },
+  "homepage": "https://github.com/Joshua-Noakes1/Pibot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "request": "^2.88.2"
+  }
+}

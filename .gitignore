@@ -1,0 +1,6 @@
+//Files
+.DS_Store
+.env
+package-lock.json
+//Folders
+node_modules/
