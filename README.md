@@ -18,7 +18,7 @@ You'll want to make a .env file and put the following things in
 
 Bot_Token={with your bot token}    
 ID={with your discord id}     
-piurl={including the http / https of your pi's pi address}    
+piurl={including the http / https of your pi's ip address}    
 piapi={your pi's api key}   
 prefix={what you want the bots prefix to be}   
    
