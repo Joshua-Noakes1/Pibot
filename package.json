@@ -1,6 +1,6 @@
 {
   "name": "pibot",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "An unoffical selfhosted NodeJS discord bot for controlling Pihole",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/Joshua-Noakes1/Pibot#readme",
   "dependencies": {
-    "discord.js": "^12.2.0",
+    "discord.js": "^12.3.1",
     "dotenv": "^8.2.0",
     "request": "^2.88.2"
   }

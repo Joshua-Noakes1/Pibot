@@ -7,21 +7,24 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
 const clientcommands = require('./commands');
-///
-//Yeah this code is bad
-const prefix_use = process.env.prefix;
-//but lets say i cant code
-const prefix = prefix_use.toLowerCase();
-///
+
+if (process.env.prefix == undefined) {
+    var prefix = '-';
+} else {
+    var prefix = process.env.prefix;
+}
 Object.keys(clientcommands).map(key => {
     client.commands.set(clientcommands[key].name, clientcommands[key]);
 });
 //connecting to discord 
 client.on('ready', () => {
+    client.user.setActivity('the pi bake', {
+        type: "WATCHING"
+    });
     console.log(`Logged in as ${client.user.tag}`);
 });
 
-//messages what else
+//reading messages
 client.on('message', message => {
     if (!message.content.startsWith(prefix)) return;
     if (!client.users.cache.get(process.env.ID)) return;
@@ -31,7 +34,7 @@ client.on('message', message => {
     if (!client.commands.has(command)) return;
 
     try {
-        console.log(command);
+        // console.log(command);
         client.commands.get(command).execute(message, args, client, Discord);
     } catch (err) {
         console.log(err)
@@ -46,6 +49,6 @@ client.on('message', message => {
     };
 });
 
-client.login(process.env.Bot_Token).catch(err => {
+client.login(process.env.BBT).catch(err => {
     console.log(err);
 });
