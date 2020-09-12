@@ -49,6 +49,6 @@ client.on('message', message => {
     };
 });
 
-client.login(process.env.BBT).catch(err => {
+client.login(process.env.Bot_Token).catch(err => {
     console.log(err);
 });
