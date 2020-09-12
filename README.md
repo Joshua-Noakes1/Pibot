@@ -79,7 +79,7 @@ Your Pihole ip and It's Api key found in your settings page
 ![Settings](https://raw.githubusercontent.com/Joshua-Noakes1/Lake-CDN/master/CDN/Other%20Repos/Pibot/Images/pihole-setting.png)    
 
 ### 3. Setting up dotenv   
-See [.env](https://github.com/Joshua-Noakes1/Pibot/blob/master/example.env) example for help on configuring the .env file 
+See [.env](https://github.com/Joshua-Noakes1/Pibot/blob/master/example.env.show) example for help on configuring the .env file 
 
 #### 3.a Adding more then one pihole to pibot  
 This supports an infinite amount of piholes 
