@@ -4,7 +4,7 @@
   "description": "An unoffical selfhosted NodeJS discord bot for controlling Pihole",
   "main": "index.js",
   "scripts": {
-    "pibot": "node pibot.js"
+    "pibot": "node index.js"
   },
   "repository": {
     "type": "git",
