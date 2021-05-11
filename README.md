@@ -1,6 +1,5 @@
 # Pibot
-An unoffical selfhosted NodeJS discord bot for controlling Pihole!  
-Click [here](https://github.com/Joshua-Noakes1/Pibot#setup) for the setup process.
+An unoffical selfhosted NodeJS discord bot for controlling Pihole!
 
 ## Usage
 ### -Status
