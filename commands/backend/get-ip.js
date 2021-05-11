@@ -4,7 +4,8 @@ function get_ip() {
     // missing url in .env
     if (process.env.url == '' || process.env.url == undefined) {
         return {
-            "url": "missing://missing-url", "hostname": `${pihole_url.hostname}`
+            "url": "missing://missing-url",
+            "hostname": `${pihole_url.hostname}`
         };
     }
 
@@ -15,12 +16,14 @@ function get_ip() {
     // missing http or https at the begining of the url
     if (!protocol.includes('http')) {
         return {
-            "url": "invalid://protocol", "hostname": `${pihole_url.hostname}`
+            "url": "invalid://protocol",
+            "hostname": `${pihole_url.hostname}`
         };
     }
 
     return {
-        "url": `${pihole_url.origin}`, "hostname": `${pihole_url.hostname}`
+        "url": `${pihole_url.origin}`,
+        "hostname": `${pihole_url.hostname}`
     }
 }
 
