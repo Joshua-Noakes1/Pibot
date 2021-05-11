@@ -12,7 +12,7 @@ The recent command pulls the most recent blocked domain
 The enable command enables pihole if it's disabled     
 ![enable](https://raw.githubusercontent.com/Joshua-Noakes1/Pibot/master/github/enable.png)
 ### -Disable
-The enable command enables pihole if it's disabled     
+The disable command disables pihole if it's enabled     
 ![disable](https://raw.githubusercontent.com/Joshua-Noakes1/Pibot/master/github/disable.png)
 
 <br />
