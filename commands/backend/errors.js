@@ -1,8 +1,8 @@
 const Discord = require("discord.js");
 const get_ip = require('./get-ip');
 
-function embedError(message, error) {
-    const pihole = get_ip.get_ip();
+async function embedError(message, error) {
+    const pihole = await get_ip.get_ip();
 
     const embed = new Discord.MessageEmbed()
         .setTitle(`🥧 Error 🥧`)

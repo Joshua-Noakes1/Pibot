@@ -32,13 +32,14 @@ client.on('message', message => {
     if (!client.commands.has(command)) return;
 
     try {
-        client.commands.get(command).execute(message, args, client);
+        client.commands.get(command).execute(message, args);
     } catch (error) {
         console.error(error)
         const error_embed = new Discord.MessageEmbed()
             .setTitle(`Something has gone wrong with '${prefix}${command}'`)
             .setColor('0xFF0000')
             .setDescription(`Please check the logs and report any issues [here](https://github.com/Joshua-Noakes1/Pibot/issues)!`)
+            .setFooter('This is error is a bad one please report it!')
             .setTimestamp();
         message.channel.send(error_embed);
         return;
