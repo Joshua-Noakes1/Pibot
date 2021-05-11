@@ -25,7 +25,7 @@ npm i
 ```
 ### 2. Bot Setup
 - You'll need a Bot token from [discord](https://discord.com/developers/applications)     
-- Your [discord id](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-#:~:text=On%20Android%20press%20and%20hold,name%20and%20select%20Copy%20ID.)       
+- Your [discord id](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID)       
 - Your Pihole ip and It's Api key found in your settings page     
 ![Settings](https://raw.githubusercontent.com/Joshua-Noakes1/Pibot/master/github/pihole-setting.png)    
 
